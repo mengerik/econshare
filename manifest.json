@@ -1,0 +1,65 @@
+{
+  "createdAt": "2026-10-25T18:03:25.478Z",
+  "mode": "demo",
+  "records": [
+    {
+      "id": "overseas-application",
+      "kind": "article",
+      "slug": "overseas-application",
+      "hash": "77cfb6e15372fa373a34fe4ec01aeeba24e02f61b9a0972b0ae4488dd110b894"
+    },
+    {
+      "id": "postgraduate-choice",
+      "kind": "article",
+      "slug": "postgraduate-choice",
+      "hash": "7dacc72521defcb6b66158ee93cb49a0d0934c8fdf19d9aa9095437220879e77"
+    },
+    {
+      "id": "study-planning",
+      "kind": "article",
+      "slug": "study-planning",
+      "hash": "5faa1038217707638fad588aac1a9d42ecc398948786d390a2afde72030268ff"
+    },
+    {
+      "id": "faq-overseas",
+      "kind": "faq",
+      "slug": null,
+      "hash": "dbe6aac88824411b89e5c79c98ef66b01d512b16df11394ad31f5447a353dae4"
+    },
+    {
+      "id": "faq-postgraduate",
+      "kind": "faq",
+      "slug": null,
+      "hash": "fa694a5674ef57005211f4a10dc2e7fd420a223ac4c8c7e032a87d4e5e3251c1"
+    },
+    {
+      "id": "faq-study",
+      "kind": "faq",
+      "slug": null,
+      "hash": "0bebd8c11fd81ac2194d543710781ae7e04f497127f1b4090f4d15fe0a4109d8"
+    },
+    {
+      "id": "site-about",
+      "kind": "page",
+      "slug": "about",
+      "hash": "5d7de403046ef910a073949bdecca83c4c7014e90f1dc6e7d5abdb1910d3746c"
+    }
+  ],
+  "changes": {
+    "added": [],
+    "changed": [],
+    "removed": [],
+    "moved": []
+  },
+  "files": [
+    "index.html",
+    "styles.css",
+    "app.js",
+    "shared.mjs",
+    "content.json",
+    "search-index.json",
+    ".nojekyll",
+    "manifest.json"
+  ],
+  "deployment": "未部署"
+}

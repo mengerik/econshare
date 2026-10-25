@@ -1,0 +1,433 @@
+{
+  "site": {
+    "name": "econshare",
+    "slogan": "让经验能够更好的传递",
+    "categories": {
+      "study": {
+        "name": "学习选课",
+        "subtitle": "找到适合自己的学习节奏",
+        "description": "从课程选择到学习方法，让每一步积累更有方向。",
+        "word": "Learn.",
+        "english": "SMALL STEPS, STEADY GROWTH"
+      },
+      "postgraduate": {
+        "name": "保研考研",
+        "subtitle": "在不同的方向里，找到自己的答案",
+        "description": "梳理升学选择与准备思路，把不确定变得更清晰。",
+        "word": "Choose.",
+        "english": "YOUR PATH, YOUR PACE"
+      },
+      "overseas": {
+        "name": "留学",
+        "subtitle": "带着准备，走向更大的世界",
+        "description": "关于申请、规划与取舍，收集出发前值得想的事。",
+        "word": "Explore.",
+        "english": "A LITTLE FURTHER, A LITTLE WISER"
+      }
+    },
+    "about": {
+      "title": "把走过的路，分享给你。",
+      "summary": "面向经济学相关学习与升学经验的信息分享站。",
+      "bodyBlocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "为什么有这个小站"
+        },
+        {
+          "type": "paragraph",
+          "text": "学习和升学的路上，有些问题不一定有标准答案。但一份有背景、有边界的经验，或许能让我们看得更清楚一点。econshare 希望把这些思考慢慢整理下来，让经验能够更好的传递。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "在这里，你会看到什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "围绕学习选课、保研考研、留学三个方向，分享个人经验和整理型常见问题。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "阅读之前的一点说明"
+        },
+        {
+          "type": "paragraph",
+          "text": "本站为个人分享，不代表任何院校或机构。经验具有时间与适用条件，涉及课程、招生与申请要求时，应核对相应官方信息。"
+        }
+      ],
+      "contact": {
+        "title": "联系与反馈",
+        "enabled": true,
+        "statusText": "现在处于测试阶段：欢迎交流与反馈",
+        "description": "",
+        "email": "shareyourthoughts@163.com"
+      }
+    }
+  },
+  "mode": "demo",
+  "articles": [
+    {
+      "schemaVersion": 2,
+      "id": "overseas-application",
+      "slug": "overseas-application",
+      "title": "当下环境留学的意义",
+      "summary": "从学习目标、项目内容与现实投入出发，建立自己的申请信息表，而不是只收集学校名称。",
+      "category": "overseas",
+      "tags": [
+        "留学申请",
+        "决策"
+      ],
+      "audience": "正在初步了解留学的同学",
+      "experienceYear": "",
+      "publishedAt": "",
+      "updatedAt": "",
+      "featured": true,
+      "relatedFaqIds": [
+        "faq-overseas"
+      ],
+      "isDemo": true,
+      "aiGenerated": true,
+      "reviewStatus": "unreviewed",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "考虑留学时，学校和项目名单很容易越列越长。先想清楚自己希望得到怎样的学习体验，能让后续的信息收集更有方向。本文由 AI 生成，只提供通用整理方法，不构成具体项目推荐，也不包含真实申请经历。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "描述你想获得的学习体验"
+        },
+        {
+          "type": "paragraph",
+          "text": "试着写下具体的问题：想深入什么主题，希望接触怎样的课程或研究训练，对毕业后的方向有哪些初步设想？不必立刻给出完整答案，但可以区分自己的期待和来自外界的期待。"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "内容：哪些主题和课程真正吸引自己？",
+            "形式：更期待课程学习、研究训练，还是其他实践？",
+            "环境：语言、地区和生活方式有哪些偏好或限制？"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "从项目页面读到具体信息"
+        },
+        {
+          "type": "paragraph",
+          "text": "比较项目时，可以使用相同的栏目记录课程设置、培养方式、申请材料、语言要求和官方时间安排。仅凭项目名称或他人的标签，往往不足以理解实际学习内容。"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "记录信息来自哪个官方页面，以及查看日期。",
+            "把尚未确认的事项单独列出，不用往年的信息自动补齐。",
+            "注意所查页面对应的入学年份与项目版本。"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "把投入列完整，再讨论取舍"
+        },
+        {
+          "type": "paragraph",
+          "text": "现实安排不仅包括学费，也涉及生活、出行、时间和可能的机会成本。这里不提供金额估计；可以先列出需要核实的费用项目和信息来源，再结合自己的条件判断。涉及财务安排时应另作核实。"
+        },
+        {
+          "type": "quote",
+          "text": "申请清单可以很长，但判断标准最好来自你真正想获得的东西。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "做一个可以更新的比较表"
+        },
+        {
+          "type": "paragraph",
+          "text": "为每个候选项目写下“吸引我的地方”“仍有疑问的地方”和“下一步要核实的事”。保留疑问比过早打分更有帮助。等到关键事实确认后，再做取舍。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "正式使用前需要补充"
+        },
+        {
+          "type": "paragraph",
+          "text": "具体项目要求、申请截止日期、费用、签证等内容，均不在本文核实范围。后续如整理真实申请经验，应补充对应年份、官方来源和经历适用条件。"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "schemaVersion": 2,
+      "id": "postgraduate-choice",
+      "slug": "postgraduate-choice",
+      "title": "保研还是考研：先把问题整理清楚",
+      "summary": "不急着寻找统一答案，先从学习目标、个人条件和准备安排，梳理两条路径需要确认的信息。",
+      "category": "postgraduate",
+      "tags": [
+        "升学选择",
+        "规划"
+      ],
+      "audience": "正在了解国内升学路径的同学",
+      "experienceYear": "",
+      "publishedAt": "",
+      "updatedAt": "",
+      "featured": true,
+      "relatedFaqIds": [
+        "faq-postgraduate"
+      ],
+      "isDemo": true,
+      "aiGenerated": true,
+      "reviewStatus": "unreviewed",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "面对升学选择，别人走得顺的路径，未必适合自己的目标。与其先问哪一种更好，不如先整理自己希望继续研究什么、有哪些条件、还缺哪些信息。本文为 AI 生成的通用思考材料，不提供资格判断或政策结论。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "把目标与路径分开写"
+        },
+        {
+          "type": "paragraph",
+          "text": "目标可以是深入学习一个领域、体验研究过程，或为未来职业补充训练；路径则是到达目标的具体安排。先描述目标，有助于避免仅因为身边人的选择而匆忙决定。"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "哪些课程或问题让自己愿意继续深入？",
+            "对研究训练、课程学习和未来工作的期待是什么？",
+            "有哪些地区、项目或生活条件需要考虑？"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "建立一份待核对的信息表"
+        },
+        {
+          "type": "paragraph",
+          "text": "把保研与考研分别放在两列，只填写已经核实的信息。尚未确定的项目直接写“待核对”，比凭印象填一个结论更有用。资格、招生安排和时间节点应查阅相应年度的官方通知。"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "适用资格与申请条件：对应哪份官方文件？",
+            "考核或准备内容：有哪些明确要求？",
+            "时间安排：哪些节点已经公布，哪些仍待发布？",
+            "投入与限制：有哪些时间、地域或其他现实条件？"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "区分能行动的事与仍需等待的事"
+        },
+        {
+          "type": "paragraph",
+          "text": "信息不完整时，可以先做与目标一致的基础准备，例如回顾专业知识、了解研究主题、整理个人材料。需要依赖官方通知的决定，单独列出提醒，避免把猜测当成已确定的安排。"
+        },
+        {
+          "type": "quote",
+          "text": "选择记录的价值，不是证明自己一定选对，而是让每一步的理由更清楚。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "给重新评估留一个位置"
+        },
+        {
+          "type": "paragraph",
+          "text": "写下当下倾向某条路径的原因，以及哪些新信息可能让自己改变判断。之后回看时，可以区分是目标变了、条件变了，还是最初的信息需要修正。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "这一页不能替你回答什么"
+        },
+        {
+          "type": "paragraph",
+          "text": "本文不能判断你是否满足某校某年的资格，也不承诺录取结果。正式经验文章还应补充真实背景、适用年份与来源；涉及具体要求时，务必核对当年的院校通知。"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "schemaVersion": 2,
+      "id": "study-planning",
+      "slug": "study-planning",
+      "title": "学习选课：给自己做一张有余地的课表",
+      "summary": "从课程信息、学习目标和时间安排三个角度，整理一份可以反复调整的选课清单。",
+      "category": "study",
+      "tags": [
+        "选课",
+        "学习方法"
+      ],
+      "audience": "正在安排学期课程的同学",
+      "experienceYear": "",
+      "publishedAt": "",
+      "updatedAt": "",
+      "featured": true,
+      "relatedFaqIds": [
+        "faq-study"
+      ],
+      "isDemo": true,
+      "aiGenerated": true,
+      "reviewStatus": "unreviewed",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "选课常常从“哪门课值得上”开始，但更有帮助的起点可能是：这个学期，我希望学会什么，又能为它留出多少时间？本文由 AI 生成，提供通用的整理思路，不包含真实课程评价或个人经历。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "先写下这个学期的三个目标"
+        },
+        {
+          "type": "paragraph",
+          "text": "可以把目标分成基础、兴趣和探索三个方向。基础是希望补足的知识，兴趣是愿意投入时间的问题，探索则是尚不熟悉但想试一试的领域。目标不必多，能解释为什么选择一门课就够了。"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "基础：哪些知识在后续课程中还会反复用到？",
+            "兴趣：有哪些主题愿意主动阅读和讨论？",
+            "探索：是否有一门课程能帮助了解新的方向？"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "用同一张清单比较课程"
+        },
+        {
+          "type": "paragraph",
+          "text": "课程名称只能提供有限的信息。可以为每门候选课记录课程大纲、先修要求、考核形式、上课时段，以及自己尚未确认的问题。涉及学分、培养要求和选课规则时，应以学校当期公布的信息为准。"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "课程内容与自己的目标有什么联系？",
+            "先修知识是否需要提前补充？",
+            "作业、展示和考试会集中在哪些时间？",
+            "还有哪些信息需要向任课教师或教务渠道确认？"
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "给一周留出可以调整的空间"
+        },
+        {
+          "type": "paragraph",
+          "text": "课表上的空白不一定是闲置。阅读、复习、小组任务和休息也需要位置。可以先安排已经明确的必需事项，再估计其他课程带来的投入。不要把同学的学习速度直接当成自己的标准。"
+        },
+        {
+          "type": "quote",
+          "text": "一张适合自己的课表，应当允许你持续学习，也允许你在获得新信息后调整。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "学期开始后，再回看一次"
+        },
+        {
+          "type": "paragraph",
+          "text": "在实际体验后，把最初的预期和实际投入放在一起比较。若考虑调整课程，先确认学校允许的时间和流程。把这次比较记录下来，也可以成为以后整理真实经验的起点。"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "可以直接使用的小清单"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "我为什么选这门课？",
+            "我已经核对了哪些信息？",
+            "我能为它留出怎样的学习时间？",
+            "如果实际体验不同，我准备怎样重新评估？"
+          ]
+        }
+      ],
+      "sources": []
+    }
+  ],
+  "faqs": [
+    {
+      "schemaVersion": 2,
+      "id": "faq-overseas",
+      "question": "整理留学项目时，怎样避免只看学校名称？",
+      "category": "overseas",
+      "tags": [],
+      "relatedArticleIds": [
+        "overseas-application"
+      ],
+      "updatedAt": "",
+      "isDemo": true,
+      "aiGenerated": true,
+      "reviewStatus": "unreviewed",
+      "answerBlocks": [
+        {
+          "type": "paragraph",
+          "text": "可以把课程设置、培养方式、申请要求和现实投入放在同一张比较表里，记录官方来源和查看日期，再判断是否符合自己的目标。具体项目要求仍需核对对应入学年度。"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 2,
+      "id": "faq-postgraduate",
+      "question": "保研还是考研还没想清楚，可以先做什么？",
+      "category": "postgraduate",
+      "tags": [],
+      "relatedArticleIds": [
+        "postgraduate-choice"
+      ],
+      "updatedAt": "",
+      "isDemo": true,
+      "aiGenerated": true,
+      "reviewStatus": "unreviewed",
+      "answerBlocks": [
+        {
+          "type": "paragraph",
+          "text": "可以先把学习目标、已知条件和待核对事项分开记录，再分别收集两条路径的官方信息。共同的基础准备可以先梳理，资格和时间节点不凭印象判断。"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 2,
+      "id": "faq-study",
+      "question": "选课信息很多，应该从哪里开始整理？",
+      "category": "study",
+      "tags": [],
+      "relatedArticleIds": [
+        "study-planning"
+      ],
+      "updatedAt": "",
+      "isDemo": true,
+      "aiGenerated": true,
+      "reviewStatus": "unreviewed",
+      "answerBlocks": [
+        {
+          "type": "paragraph",
+          "text": "先写下自己的学习目标，再用同一张清单记录每门候选课的大纲、先修要求、考核形式与时间安排。涉及学分或培养要求时，查阅当期教务信息。这里不评价具体课程。"
+        }
+      ]
+    }
+  ]
+}
