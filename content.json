@@ -70,6 +70,50 @@
   "articles": [
     {
       "schemaVersion": 2,
+      "id": "baoyan-first-year",
+      "slug": "baoyan-first-year",
+      "title": "保送清北是如何炼成的（本人未保清北版）",
+      "summary": "从大一阶段谈起，分享尽早了解保研、重视绩点并同步关注竞赛与科研的重要性。",
+      "category": "postgraduate",
+      "tags": [
+        "保研",
+        "大一规划"
+      ],
+      "audience": "有意了解保研准备的低年级同学",
+      "experienceYear": "",
+      "publishedAt": "2026-10-26",
+      "updatedAt": "2026-10-26",
+      "featured": false,
+      "relatedFaqIds": [
+        "faq-postgraduate"
+      ],
+      "isDemo": false,
+      "aiGenerated": false,
+      "reviewStatus": "unreviewed",
+      "bodyBlocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "学弟学妹们好！"
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "先说说大一的重要性"
+        },
+        {
+          "type": "paragraph",
+          "text": "如果你们想保研，有人说大一争绩点，大二搞竞赛，大三做科研，但是实际是大一、大二、大三都得搞绩点、竞赛、科研。"
+        },
+        {
+          "type": "paragraph",
+          "text": "大一我觉得很重要，因为很多同学刚高考完，比较懈怠，且不知保研为何物，很容易松懈下来导致绩点垮掉。加之刚上大一，大学很多规则并不熟悉，很容易考出低分。那么在大二、大三的时候，这段差距很难弥补，因为大一学分多、课程多，在保研绩点中占比较大。可以说，大一就决定了你最后排名的 50%。这一节先讲讲大一的重要性，以后内容再述。"
+        }
+      ],
+      "sources": []
+    },
+    {
+      "schemaVersion": 2,
       "id": "overseas-application",
       "slug": "overseas-application",
       "title": "当下环境留学的意义",

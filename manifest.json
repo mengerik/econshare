@@ -1,7 +1,13 @@
 {
-  "createdAt": "2026-10-25T18:03:25.478Z",
+  "createdAt": "2026-10-26T14:50:28.265Z",
   "mode": "demo",
   "records": [
+    {
+      "id": "baoyan-first-year",
+      "kind": "article",
+      "slug": "baoyan-first-year",
+      "hash": "7ee7d2892fe16be5753c354053cca459df24f8cf5d51fadce59d636313d990c2"
+    },
     {
       "id": "overseas-application",
       "kind": "article",
@@ -46,7 +52,9 @@
     }
   ],
   "changes": {
-    "added": [],
+    "added": [
+      "baoyan-first-year"
+    ],
     "changed": [],
     "removed": [],
     "moved": []

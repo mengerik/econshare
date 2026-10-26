@@ -1,5 +1,16 @@
 [
   {
+    "id": "baoyan-first-year",
+    "slug": "baoyan-first-year",
+    "title": "保送清北是如何炼成的（本人未保清北版）",
+    "summary": "从大一阶段谈起，分享尽早了解保研、重视绩点并同步关注竞赛与科研的重要性。",
+    "tags": [
+      "保研",
+      "大一规划"
+    ],
+    "category": "postgraduate"
+  },
+  {
     "id": "overseas-application",
     "slug": "overseas-application",
     "title": "当下环境留学的意义",
