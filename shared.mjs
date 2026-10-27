@@ -7,7 +7,16 @@ export function renderContact(contact){
  return `<div class="info-panel"><h2>${escapeHtml(c.title)}</h2><span class="contact-status">${escapeHtml(c.statusText)}</span><p>${escapeHtml(c.description).replace(/\n/g,'<br>')}</p>${email?`<div class="contact-actions"><a href="mailto:${encodeURIComponent(email)}">${escapeHtml(email)} ↗</a><button type="button" data-copy-email="${escapeHtml(email)}">复制邮箱</button><span class="copy-status" role="status"></span></div>`:''}</div>`;
 }
 export function bindContactCopy(root){
- root.querySelectorAll('[data-copy-email]').forEach(button=>button.addEventListener('click',async()=>{const status=button.parentElement.querySelector('.copy-status');try{await navigator.clipboard.writeText(button.dataset.copyEmail);status.textContent='已复制邮箱';}catch{status.textContent='请手动选择并复制邮箱地址';}}));
+ root.querySelectorAll('[data-copy-email],[data-copy-contact]').forEach(button=>button.addEventListener('click',async()=>{const value=button.dataset.copyEmail||button.dataset.copyContact;const label=button.dataset.copyEmail?'邮箱':'联系方式';const status=button.parentElement.querySelector('.copy-status');try{await navigator.clipboard.writeText(value);status.textContent=`已复制${label}`;}catch{status.textContent=`请手动选择并复制${label}`;}}));
+}
+export function renderAuthorContact(author){
+ const a=author&&typeof author==='object'?author:{};const c=a.contact&&typeof a.contact==='object'?a.contact:{};
+ const labels={email:'邮箱',wechat:'微信',qq:'QQ',other:'联系方式'},label=labels[c.type]||labels.other;
+ const enabled=!!c.enabled&&typeof c.value==='string'&&c.value.trim();
+ if(!a.name&&!enabled)return '';
+ const value=escapeHtml(c.value||''),copy=escapeHtml(c.value||'');
+ const contact=enabled?`<div class="contact-actions">${c.type==='email'&&validEmail(c.value)?`<a href="mailto:${encodeURIComponent(c.value)}">${value} ↗</a>`:`<span class="contact-value">${label}：${value}</span>`}<button type="button" data-copy-contact="${copy}">复制${label}</button><span class="copy-status" role="status"></span></div>${c.note?`<p class="author-contact-note">${escapeHtml(c.note)}</p>`:''}`:'';
+ return `<div class="info-panel author-panel"><h2>关于作者</h2>${a.name?`<p>作者署名：${escapeHtml(a.name)}</p>`:''}${contact}</div>`;
 }
 export function safeHref(value) {
   try { const u = new URL(value); return ['https:', 'http:'].includes(u.protocol) ? u.href : ''; } catch { return ''; }
@@ -83,6 +92,12 @@ export function validateBundle(bundle, {mode = 'demo'} = {}) {
         else r.sources.forEach((s,i)=>{if(!s || !nonempty(s.name)||!safeHref(s.url))error(file,`sources[${i}]`,'来源必须有名称和安全的网址');});
         if (!r.experienceYear) warnings.push({file,field:'experienceYear',message:'经验年份未填写；通用整理可留空'});
         if (!r.sources?.length) warnings.push({file,field:'sources',message:'来源未填写；发布前请检查是否含需核对的信息'});
+        if (r.author !== undefined) {
+          const a=r.author,c=a?.contact;
+          if (!a || typeof a.name!=='string' || !c || typeof c.enabled!=='boolean' || !['email','wechat','qq','other'].includes(c.type) || typeof c.value!=='string' || typeof c.note!=='string') error(file,'author','作者信息需要署名、公开状态、联系方式类型、联系内容和说明');
+          else if (c.enabled && (!nonempty(a.name) || !nonempty(c.value))) error(file,'author.contact','公开联系方式时必须填写作者署名和联系内容');
+          else if (c.enabled && c.type==='email' && !validEmail(c.value)) error(file,'author.contact.value','公开邮箱格式无效');
+        }
       }
       blocksCheck(kind==='articles'?r.bodyBlocks:r.answerBlocks,file,kind==='articles'?'bodyBlocks':'answerBlocks',draft);
       if (!draft && mode==='formal') {
@@ -108,7 +123,7 @@ export function publicBundle(bundle, mode='demo') {
   return {
     site:{name:bundle.site.name,slogan:bundle.site.slogan,categories:Object.fromEntries(Object.entries(bundle.site.categories).map(([id,c])=>[id,Object.fromEntries(['name','subtitle','description','word','english'].map(k=>[k,c[k]]))])),...(bundle.site.about?{about:{title:bundle.site.about.title,summary:bundle.site.about.summary,bodyBlocks:cleanBlocks(bundle.site.about.bodyBlocks),...(bundle.site.about.contact?{contact:{...pick(bundle.site.about.contact,['title','enabled','statusText','description']),email:bundle.site.about.contact.enabled?bundle.site.about.contact.email:''}}:{})}}:{})},
     mode,
-    articles:bundle.articles.filter(a=>a.publicationState==='published').map(a=>({...pick(a,['schemaVersion','id','slug','title','summary','category','tags','audience','experienceYear','publishedAt','updatedAt','featured','relatedFaqIds','isDemo','aiGenerated','reviewStatus']),bodyBlocks:cleanBlocks(a.bodyBlocks),sources:a.sources.map(s=>pick(s,['name','url']))})),
+    articles:bundle.articles.filter(a=>a.publicationState==='published').map(a=>({...pick(a,['schemaVersion','id','slug','title','summary','category','tags','audience','experienceYear','publishedAt','updatedAt','featured','relatedFaqIds','isDemo','aiGenerated','reviewStatus']),...(a.author?{author:{name:a.author.name,contact:{...pick(a.author.contact,['enabled','type','note']),value:a.author.contact.enabled?a.author.contact.value:''}}}:{}),bodyBlocks:cleanBlocks(a.bodyBlocks),sources:a.sources.map(s=>pick(s,['name','url']))})),
     faqs:bundle.faqs.filter(f=>f.publicationState==='published').map(f=>({...pick(f,['schemaVersion','id','question','category','tags','relatedArticleIds','updatedAt','isDemo','aiGenerated','reviewStatus']),answerBlocks:cleanBlocks(f.answerBlocks)}))
   };
 }

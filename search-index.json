@@ -1,5 +1,15 @@
 [
   {
+    "id": "article-mvqrgvh7",
+    "slug": "study-abroad-meaning",
+    "title": "留学还有意义吗？",
+    "summary": "当留学的红利与滤镜逐渐退去，我们该如何看待这份选择？本文作为“留学版块”的开篇，由站主结合个人经历与现实观察写就。希望这份思考能成为一个起点，陪你在分岔路口多方参照，找到适合自己的方向。",
+    "tags": [
+      "站主序言 / 写在前面的个人思考"
+    ],
+    "category": "overseas"
+  },
+  {
     "id": "baoyan-first-year",
     "slug": "baoyan-first-year",
     "title": "保送清北是如何炼成的（本人未保清北版）",
@@ -9,38 +19,5 @@
       "大一规划"
     ],
     "category": "postgraduate"
-  },
-  {
-    "id": "overseas-application",
-    "slug": "overseas-application",
-    "title": "当下环境留学的意义",
-    "summary": "从学习目标、项目内容与现实投入出发，建立自己的申请信息表，而不是只收集学校名称。",
-    "tags": [
-      "留学申请",
-      "决策"
-    ],
-    "category": "overseas"
-  },
-  {
-    "id": "postgraduate-choice",
-    "slug": "postgraduate-choice",
-    "title": "保研还是考研：先把问题整理清楚",
-    "summary": "不急着寻找统一答案，先从学习目标、个人条件和准备安排，梳理两条路径需要确认的信息。",
-    "tags": [
-      "升学选择",
-      "规划"
-    ],
-    "category": "postgraduate"
-  },
-  {
-    "id": "study-planning",
-    "slug": "study-planning",
-    "title": "学习选课：给自己做一张有余地的课表",
-    "summary": "从课程信息、学习目标和时间安排三个角度，整理一份可以反复调整的选课清单。",
-    "tags": [
-      "选课",
-      "学习方法"
-    ],
-    "category": "study"
   }
 ]

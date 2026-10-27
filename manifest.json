@@ -1,48 +1,30 @@
 {
-  "createdAt": "2026-10-26T14:50:28.265Z",
-  "mode": "demo",
+  "createdAt": "2026-10-27T15:23:38.816Z",
+  "mode": "formal",
   "records": [
+    {
+      "id": "article-mvqrgvh7",
+      "kind": "article",
+      "slug": "study-abroad-meaning",
+      "hash": "25f9d68de58d90eae188673f61dffe4171e9c33503ec82271f6924870c059d61"
+    },
     {
       "id": "baoyan-first-year",
       "kind": "article",
       "slug": "baoyan-first-year",
-      "hash": "7ee7d2892fe16be5753c354053cca459df24f8cf5d51fadce59d636313d990c2"
-    },
-    {
-      "id": "overseas-application",
-      "kind": "article",
-      "slug": "overseas-application",
-      "hash": "77cfb6e15372fa373a34fe4ec01aeeba24e02f61b9a0972b0ae4488dd110b894"
-    },
-    {
-      "id": "postgraduate-choice",
-      "kind": "article",
-      "slug": "postgraduate-choice",
-      "hash": "7dacc72521defcb6b66158ee93cb49a0d0934c8fdf19d9aa9095437220879e77"
-    },
-    {
-      "id": "study-planning",
-      "kind": "article",
-      "slug": "study-planning",
-      "hash": "5faa1038217707638fad588aac1a9d42ecc398948786d390a2afde72030268ff"
+      "hash": "9d309b499a4390248639e16a791f10b91164826034f360f76d605c6368d615b0"
     },
     {
       "id": "faq-overseas",
       "kind": "faq",
       "slug": null,
-      "hash": "dbe6aac88824411b89e5c79c98ef66b01d512b16df11394ad31f5447a353dae4"
+      "hash": "b9bd001ca7ca88bcab553028fa72134d0b51d6615d9fd22b744efb3c45afff91"
     },
     {
       "id": "faq-postgraduate",
       "kind": "faq",
       "slug": null,
-      "hash": "fa694a5674ef57005211f4a10dc2e7fd420a223ac4c8c7e032a87d4e5e3251c1"
-    },
-    {
-      "id": "faq-study",
-      "kind": "faq",
-      "slug": null,
-      "hash": "0bebd8c11fd81ac2194d543710781ae7e04f497127f1b4090f4d15fe0a4109d8"
+      "hash": "0494d6165dfd3311d5e056eb6536c1d16e78e5f35bf45eead7df924d228f1af6"
     },
     {
       "id": "site-about",
@@ -52,9 +34,7 @@
     }
   ],
   "changes": {
-    "added": [
-      "baoyan-first-year"
-    ],
+    "added": [],
     "changed": [],
     "removed": [],
     "moved": []
